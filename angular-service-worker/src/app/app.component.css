@@ -1,42 +1,33 @@
-body {
-    padding: 0;
-    margin: 0;
+.header {
+    height: 30vh;
+    width: 100vw;
+    background-color: #333;
 }
 
-.header {
-    height: 500px;
-    width: 100vw;
-    background-color: #4990E2;
+.forest-header {
+    position: absolute;
+    top: 0;
+    left: 0;
     background: url('/assets/forest-header.png') no-repeat;
     background-size: cover;
     background-position: bottom;
-    text-align: center;
-    line-height: 25vh;
 }
 
-.header > h1 {
+.ocean-header {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: 0;
-    padding: 0;
-    color: rgba(256,256,256,1);
-    font-weight: 800;
-    font-size: 14vw;
-    font-family: Sans-serif;
-    z-index: 50;
-    color: #5F8134;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgba(0,0,0,0.2);
+    top: 30vh;
+    left: 0;
+    background: url('/assets/ocean-header.png') no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
-.header > img {
-    padding: 0;
-    margin: 0;
+.night-header {
     position: absolute;
-    top:0;
-    left:0;
-    height: 100vh;
-    width: 100vw;
+    top: 60vh;
+    left: 0;
+    height: 40vh;
+    background: url('/assets/night-header.png') no-repeat;
+    background-size: cover;
+    background-position: center;
 }
