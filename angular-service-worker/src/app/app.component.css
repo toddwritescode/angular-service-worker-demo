@@ -1,10 +1,15 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
 .header {
-    position: relative;
-    height: 100vh;
+    height: 500px;
     width: 100vw;
     background-color: #4990E2;
+    background: url('/assets/forest-header.png') no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
     text-align: center;
     line-height: 25vh;
 }
@@ -18,7 +23,7 @@
     padding: 0;
     color: rgba(256,256,256,1);
     font-weight: 800;
-    font-size: 18vw;
+    font-size: 14vw;
     font-family: Sans-serif;
     z-index: 50;
     color: #5F8134;
@@ -27,10 +32,11 @@
 }
 
 .header > img {
+    padding: 0;
+    margin: 0;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 60vh;
-    width: 85%;
+    top:0;
+    left:0;
+    height: 100vh;
+    width: 100vw;
 }
